@@ -21,3 +21,12 @@ let order = {
 };
 order.displayOrder();
 // Declared order as an object with three values. Then assigned the values to displayOrder and had all the values logged to the console.
+
+// Task 3: Shopping Cart
+let cartItems = ["Bowls", "Plates", "Cups"];
+    cartItems.push("Forks");
+    cartItems.pop();
+    cartItems.unshift("Spoons");
+    cartItems.shift();
+console.log(cartItems);
+// Declared the array cartItems and gave it 3 values. Then I added a new value, removed the last value in the list, added a new one to the beginning, then removed the first value. Then logged the final array to the console.
