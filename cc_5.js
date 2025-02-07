@@ -30,3 +30,10 @@ let cartItems = ["Bowls", "Plates", "Cups"];
     cartItems.shift();
 console.log(cartItems);
 // Declared the array cartItems and gave it 3 values. Then I added a new value, removed the last value in the list, added a new one to the beginning, then removed the first value. Then logged the final array to the console.
+
+// Task 4: Price Adjustments
+let prices = [250, 500, 750];
+let discountPrices = prices.map(prices => prices * 0.10);
+
+console.log("ON SALE!:",discountPrices);
+// Declared an array with the price of 3 items. Then used the map method to apply a 10 percent discount to each product. Then logged the discount to the console.
