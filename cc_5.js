@@ -51,3 +51,10 @@ let totalRevenue = sales.reduce((total, amount) => total + amount, 0);
 
 console.log("Total Revenue:", totalRevenue);
 // Declared the sales array with 4 values. Then used the reduce method to add all the values together. Then logged the total revenue to the console.
+
+//Task 7: Customer Search
+const customers = ["Alice", "Bob", "Charlie", "David"];
+let customerSearch = customers.find(customers => customers === "Charlie");
+
+console.log("Found Customer!:", customerSearch);
+// Declared the array customers with 4 names. Then used the .find method to pick charlie out of the list. Then logged it to the console.
