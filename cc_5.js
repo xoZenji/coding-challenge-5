@@ -76,3 +76,11 @@ function applyDiscount(price, discount) {
 
 console.log("Promo Applied!:", applyDiscount(750, 0.3));
 // Created a function that applies a 30% discount to the purchase price. Then logs it to the console.
+
+// Task 10: Loyalty Points
+const calculatePoints = (purchaseAmount) => {
+    let rewards = Math.floor(purchaseAmount / 10);
+    return rewards;
+};
+console.log("Points Balance:", calculatePoints(457));
+// Created a function that calculates 1 reward point for every 10 bucks spent. Then logs the total rewards to the console.
