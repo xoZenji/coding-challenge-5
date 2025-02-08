@@ -44,3 +44,10 @@ let itemQuantity = inventory.filter(inventory => inventory > 0);
 
 console.log("Left in Stock:", itemQuantity);
 // Declared the inventory as an array and gave it 5 values. Then used the .filter to filter out all 0 stock quantities. Then logged the updated quantity to the console.
+
+//Task 6: Revenue Calculation
+let sales = [100, 230, 55, 75];
+let totalRevenue = sales.reduce((total, amount) => total + amount, 0);
+
+console.log("Total Revenue:", totalRevenue);
+// Declared the sales array with 4 values. Then used the reduce method to add all the values together. Then logged the total revenue to the console.
