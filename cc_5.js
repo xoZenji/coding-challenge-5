@@ -37,3 +37,10 @@ let discountPrices = prices.map(prices => prices * 0.10);
 
 console.log("ON SALE!:",discountPrices);
 // Declared an array with the price of 3 items. Then used the map method to apply a 10 percent discount to each product. Then logged the discount to the console.
+
+// Task 5: Product Availability
+let inventory = [14, 27, 0, 6, 9];
+let itemQuantity = inventory.filter(inventory => inventory > 0);
+
+console.log("Left in Stock:", itemQuantity);
+// Declared the inventory as an array and gave it 5 values. Then used the .filter to filter out all 0 stock quantities. Then logged the updated quantity to the console.
