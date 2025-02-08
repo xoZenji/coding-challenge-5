@@ -67,3 +67,12 @@ function calculateTax(amount, taxRate) {
 
 console.log(`Sales Tax: $${calculateTax(250, 0.07)}`);
 // Created a function that calculates the sales tax of the purchased item. Then logs it to the console.
+
+// Task 9: Discount Application
+function applyDiscount(price, discount) {
+    let salesPrice = price - price * discount;
+    return salesPrice;
+}
+
+console.log("Promo Applied!:", applyDiscount(750, 0.3));
+// Created a function that applies a 30% discount to the purchase price. Then logs it to the console.
