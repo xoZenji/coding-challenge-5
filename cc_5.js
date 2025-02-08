@@ -58,3 +58,12 @@ let customerSearch = customers.find(customers => customers === "Charlie");
 
 console.log("Found Customer!:", customerSearch);
 // Declared the array customers with 4 names. Then used the .find method to pick charlie out of the list. Then logged it to the console.
+
+// Task 8: Tax Calculation
+function calculateTax(amount, taxRate) {
+    let tax = amount * taxRate;
+    return tax;
+}
+
+console.log(`Sales Tax: $${calculateTax(250, 0.07)}`);
+// Created a function that calculates the sales tax of the purchased item. Then logs it to the console.
